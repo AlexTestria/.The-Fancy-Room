@@ -1,0 +1,20 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 11}, "model": "item/survival/magic_wands/fire_wand" },
+		{ "predicate": { "custom_model_data": 12}, "model": "item/survival/magic_shards/fire_shard" },
+		{ "predicate": { "custom_model_data": 21}, "model": "item/survival/magic_wands/air_wand" },
+		{ "predicate": { "custom_model_data": 22}, "model": "item/survival/magic_shards/air_shard" },
+		{ "predicate": { "custom_model_data": 31}, "model": "item/survival/magic_wands/water_wand" },
+		{ "predicate": { "custom_model_data": 32}, "model": "item/survival/magic_shards/water_shard" },
+		{ "predicate": { "custom_model_data": 41}, "model": "item/survival/magic_wands/earth_wand" },
+		{ "predicate": { "custom_model_data": 42}, "model": "item/survival/magic_shards/earth_shard" },
+		{ "predicate": { "custom_model_data": 51}, "model": "item/survival/magic_wands/void_wand" },
+		{ "predicate": { "custom_model_data": 52}, "model": "item/survival/magic_shards/void_shard" },
+		{ "predicate": { "custom_model_data": 61}, "model": "item/survival/magic_wands/light_wand" },
+   	{ "predicate": { "custom_model_data": 62}, "model": "item/survival/magic_shards/light_shard" }
+]
+}
