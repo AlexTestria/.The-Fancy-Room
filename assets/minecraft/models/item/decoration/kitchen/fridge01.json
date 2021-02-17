@@ -1,0 +1,240 @@
+{
+	"credit": "AlexTestria | https://byron-dynamics.de",
+	"textures": {
+		"1": "materials/wood/shader_support/parquet02",
+		"particle": "materials/wood/shader_support/parquet02",
+		"layer0": "materials/metals/shader_support/gold"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [1, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 1], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [1, 0, 0.25],
+			"to": [15, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 14, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 14, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 15.75, 14], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, 0, 0],
+			"to": [14.875, 16, 0.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 12.875, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.25, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 0.25, 12.875], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [1.125, 0, 0],
+			"to": [2, 16, 0.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.875, 16], "texture": "#layer0"},
+				"west": {"uv": [0, 0, 0.25, 16], "texture": "#layer0"},
+				"up": {"uv": [0, 0, 0.25, 0.875], "rotation": 90, "texture": "#layer0"}
+			}
+		},
+		{
+			"from": [15, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [23, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 1], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, -16, 0],
+			"to": [1, 0, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 1], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [1, -15, 0.25],
+			"to": [15, 0, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, -8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 14, 15], "texture": "#1"},
+				"south": {"uv": [0, 0, 14, 15], "texture": "#1"},
+				"down": {"uv": [0, 0, 15.75, 14], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, -15, 0],
+			"to": [14.875, 0, 0.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, -8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 12.875, 15], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.25, 15], "texture": "#1"},
+				"down": {"uv": [0, 0, 0.25, 12.875], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [1.125, -15, 0],
+			"to": [2, 0, 0.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, -8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.875, 15], "texture": "#layer0"},
+				"west": {"uv": [0, 0, 0.25, 15], "texture": "#layer0"},
+				"down": {"uv": [0, 0, 0.25, 0.875], "rotation": 270, "texture": "#layer0"}
+			}
+		},
+		{
+			"from": [1, -16, 0.5],
+			"to": [15, -15, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, -8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 14, 1], "texture": "#1"},
+				"south": {"uv": [0, 0, 14, 1], "texture": "#1"},
+				"down": {"uv": [0, 0, 15.5, 14], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [15, -16, 0],
+			"to": [16, 0, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [23, -8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 1], "rotation": 270, "texture": "#1"}
+			}
+		}
+	],
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 11
+			},
+			"model": "item/survival/magic_wands/fire_wand"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 12
+			},
+			"model": "item/survival/magic_shards/fire_shard"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 21
+			},
+			"model": "item/survival/magic_wands/air_wand"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 22
+			},
+			"model": "item/survival/magic_shards/air_shard"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 31
+			},
+			"model": "item/survival/magic_wands/water_wand"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 32
+			},
+			"model": "item/survival/magic_shards/water_shard"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 41
+			},
+			"model": "item/survival/magic_wands/earth_wand"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 42
+			},
+			"model": "item/survival/magic_shards/earth_shard"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 51
+			},
+			"model": "item/survival/magic_wands/void_wand"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 52
+			},
+			"model": "item/survival/magic_shards/void_shard"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 61
+			},
+			"model": "item/survival/magic_wands/light_wand"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 62
+			},
+			"model": "item/survival/magic_shards/light_shard"
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [62.5, 0, 0],
+			"translation": [0, 0.75, 0],
+			"scale": [-0.2, 0.2, 0.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [62.5, 0, 0],
+			"translation": [0, 0.75, 0],
+			"scale": [-0.2, 0.2, 0.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 125, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 125, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [20, -123, 0],
+			"translation": [0, -0.25, 0],
+			"scale": [0.37, 0.37, 0.37]
+		},
+		"head": {
+			"translation": [0, -30.41, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"translation": [0, 0, -6],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

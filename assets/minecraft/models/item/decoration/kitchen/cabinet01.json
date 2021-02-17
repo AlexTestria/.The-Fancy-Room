@@ -1,0 +1,216 @@
+{
+	"credit": "AlexTestria | https://byron-dynamics.de",
+	"textures": {
+		"1": "materials/lights/shader_support/white01",
+		"particle": "materials/wood/shader_support/parquet03"
+	},
+	"elements": [
+		{
+			"from": [0, 0.5, 8],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 15.5], "texture": "#particle"},
+				"east": {"uv": [0, 0, 8, 15.5], "texture": "#particle"},
+				"south": {"uv": [0, 0, 16, 15.5], "texture": "#particle"},
+				"west": {"uv": [0, 0, 8, 15.5], "texture": "#particle"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 0, 8],
+			"to": [16, 0.5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0.5], "texture": "#particle"},
+				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#particle"},
+				"south": {"uv": [0, 0, 16, 0.5], "texture": "#particle"},
+				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#particle"},
+				"down": {"uv": [0, 0, 16, 0.5], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [0, 0, 15.5],
+			"to": [16, 0.5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 23.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0.5], "texture": "#particle"},
+				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#particle"},
+				"south": {"uv": [0, 0, 16, 0.5], "texture": "#particle"},
+				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#particle"},
+				"down": {"uv": [0, 0, 16, 0.5], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [0, 0, 8.5],
+			"to": [0.5, 0.5, 15.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 23.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#particle"},
+				"east": {"uv": [0, 0, 7, 0.5], "texture": "#particle"},
+				"south": {"uv": [0, 0, 0.5, 0.5], "texture": "#particle"},
+				"west": {"uv": [0, 0, 7, 0.5], "texture": "#particle"},
+				"down": {"uv": [0, 0, 0.5, 7], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [15.5, 0, 8.5],
+			"to": [16, 0.5, 15.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [23.5, 8, 23.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#particle"},
+				"east": {"uv": [0, 0, 7, 0.5], "texture": "#particle"},
+				"south": {"uv": [0, 0, 0.5, 0.5], "texture": "#particle"},
+				"west": {"uv": [0, 0, 7, 0.5], "texture": "#particle"},
+				"down": {"uv": [0, 0, 0.5, 7], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [0.0625, 0.03125, 7.5],
+			"to": [15.9375, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 15.875, 15.96875], "texture": "#particle"},
+				"east": {"uv": [0, 0, 0.5, 15.96875], "texture": "#particle"},
+				"west": {"uv": [0, 0, 0.5, 15.96875], "texture": "#particle"},
+				"down": {"uv": [0, 0, 15.875, 0.5], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [0.0625, 16, 7.5],
+			"to": [15.9375, 23.9375, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 15.875, 7.9375], "texture": "#particle"},
+				"east": {"uv": [0, 0, 0.5, 7.9375], "texture": "#particle"},
+				"west": {"uv": [0, 0, 0.5, 7.9375], "texture": "#particle"},
+				"up": {"uv": [0, 0, 15.875, 0.5], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [0, 16, 8],
+			"to": [16, 24, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 24, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#particle"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "#particle"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#particle"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#particle"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#particle"}
+			}
+		}
+	],
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 11
+			},
+			"model": "item/survival/magic_wands/fire_wand"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 12
+			},
+			"model": "item/survival/magic_shards/fire_shard"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 21
+			},
+			"model": "item/survival/magic_wands/air_wand"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 22
+			},
+			"model": "item/survival/magic_shards/air_shard"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 31
+			},
+			"model": "item/survival/magic_wands/water_wand"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 32
+			},
+			"model": "item/survival/magic_shards/water_shard"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 41
+			},
+			"model": "item/survival/magic_wands/earth_wand"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 42
+			},
+			"model": "item/survival/magic_shards/earth_shard"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 51
+			},
+			"model": "item/survival/magic_wands/void_wand"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 52
+			},
+			"model": "item/survival/magic_shards/void_shard"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 61
+			},
+			"model": "item/survival/magic_wands/light_wand"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 62
+			},
+			"model": "item/survival/magic_shards/light_shard"
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [62.5, 0, 0],
+			"translation": [0, 0.75, 0],
+			"scale": [-0.2, 0.2, 0.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [62.5, 0, 0],
+			"translation": [0, 0.75, 0],
+			"scale": [-0.2, 0.2, 0.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 125, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 125, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [20, -123, 0],
+			"translation": [0, -0.25, 0],
+			"scale": [0.37, 0.37, 0.37]
+		},
+		"head": {
+			"translation": [0, -30.41, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"translation": [0, 0, -6],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}
