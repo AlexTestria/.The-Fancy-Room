@@ -3,7 +3,7 @@
 	"textures": {
 		"2": "materials/metals/shader_support/metal02",
 		"3": "materials/metals/shader_support/metal03",
-		"4": "materials/plastics/shader_support/plastic03",
+		"4": "materials/plastics/shader_support/plastic02",
 		"particle": "materials/wood/shader_support/parquet02"
 	},
 	"elements": [

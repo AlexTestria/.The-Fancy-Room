@@ -4,6 +4,8 @@
 	"ambientocclusion": false,
 	"textures": {
 		"0": "materials/fabrics/shader_support/carpet01",
+		"1": "materials/plastics/shader_support/plastic02",
+		"2": "materials/wood/shader_support/parquet01",
 		"particle": "materials/fabrics/shader_support/carpet01"
 	},
 	"elements": [
@@ -11,12 +13,36 @@
 			"from": [0, 0, 0],
 			"to": [16, 16, 16],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "north"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "east"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "south"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "west"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "up"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "down"}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#2", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 16.25, 0],
+			"to": [16, 16.5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 24, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0.25], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 0.25], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 0.25], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 0.25], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-0.5, 16, -0.5],
+			"to": [16.5, 16.25, 16.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 24, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0.25], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 0.25], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 0.25], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 0.25], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"}
 			}
 		}
 	],
@@ -55,5 +81,12 @@
 		"fixed": {
 			"scale": [0.5, 0.5, 0.5]
 		}
-	}
+	},
+	"groups": [0,
+		{
+			"name": "white_carpet",
+			"origin": [8, 8, 8],
+			"children": [1, 2]
+		}
+	]
 }
